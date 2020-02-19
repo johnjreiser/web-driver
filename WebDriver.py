@@ -42,7 +42,7 @@ class AuthenticatedWeb(object):
 
 	TARGET_URL = None
 	DRIVER = None
-	AUTH_URL = 'https://cas.tamu.edu'
+	AUTH_URL = 'https://login.rowan.edu'
 
 	def __init__(self, url, chrome_path=None, chrome_driver=None, auth_url=None, duo_timeout=None, log_level=None):
 
